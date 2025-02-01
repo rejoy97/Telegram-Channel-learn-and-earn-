@@ -1,4 +1,9 @@
-document.getElementById("joinButton").addEventListener("click", function() {
-    window.location.href = "https://t.me/https://t.me/+qRHhq1Gdm0QzYzQ1"; // Replace with your Telegram channel link
+// Wait for the page to load
+document.addEventListener("DOMContentLoaded", function () {
+    const button = document.querySelector(".join-btn");
+
+    // Add a click event listener to the button
+    button.addEventListener("click", function () {
+        alert("Redirecting to our Telegram channel...");
+    });
 });
-alert("JavaScript is connected!");
